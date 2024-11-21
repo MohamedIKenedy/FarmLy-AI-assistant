@@ -1,0 +1,44 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* index.css */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.weather-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #87CEEB, #FFFFFF);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.location-input {
+  padding: 10px;
+  border: 2px solid #1E90FF;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: 2px solid #1E90FF;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #1E90FF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #1C86EE;
+}
+

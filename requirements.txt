@@ -1,0 +1,7 @@
+numpy
+pandas
+Pillow
+scikit_learn==1.3.2
+tensorflow
+torch
+torchvision

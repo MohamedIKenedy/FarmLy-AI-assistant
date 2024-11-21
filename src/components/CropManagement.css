@@ -1,0 +1,73 @@
+/* Animation for the entire component when the page loads or is refreshed */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Animation for the result div */
+  @keyframes fadeInResult {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .results.fade-in {
+    animation: fadeInResult 1s ease-in-out;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .result-window {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .result-title {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .crop-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .crop-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .crop-info p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+  }
+
+/* CropManagement.css */
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
